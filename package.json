@@ -1,0 +1,12 @@
+{
+  "name": "uk-gilt-yield",
+  "version": "0.1.0",
+  "description": "UK gilt maths with no dependencies: gross redemption yield, price from yield, accrued interest and ex-dividend dates, on the DMO's conventions.",
+  "main": "gilt.js",
+  "scripts": {
+    "test": "node gilt.js --selftest"
+  },
+  "keywords": ["gilts", "bonds", "yield-to-maturity", "accrued-interest", "uk", "zero-dependency"],
+  "engines": { "node": ">=14" },
+  "license": "MIT"
+}
